@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
 const config = require('config')
-//const db = process.env.MongoURI || config.get('mongoURI')
 
 const connectDB = async (db=process.env.MongoURI || config.get('mongoURI')) => {
 	try {
@@ -13,7 +12,7 @@ const connectDB = async (db=process.env.MongoURI || config.get('mongoURI')) => {
 
 		console.log('MongoDB Connected')
 	} catch (err) {
-		console.error(err.message);
+		console.error(err.message)
 		// Exit process with failure
 		process.exit(1)
 	}

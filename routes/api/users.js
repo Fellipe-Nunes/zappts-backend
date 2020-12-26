@@ -129,6 +129,4 @@ router.delete('/:email', async(req, res, next) => {
   }
 })
 
-
-
 module.exports = router

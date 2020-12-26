@@ -1,5 +1,5 @@
-const bcrypt = require('bcryptjs');
-const mongoose = require('mongoose');
+const bcrypt = require('bcryptjs')
+const mongoose = require('mongoose')
 
 const UserSchema = new mongoose.Schema({
     nome : {
@@ -30,4 +30,4 @@ const UserSchema = new mongoose.Schema({
     }
 }, { autoCreate: true })
 
-module.exports = mongoose.model('usuarios', UserSchema);
+module.exports = mongoose.model('usuarios', UserSchema)

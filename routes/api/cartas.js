@@ -57,6 +57,7 @@ router.get('/', auth, async(req, res, next)=> {
   }
 })
 
+
 // @route    GET /carta/:email
 // @desc     DETAIL carta
 // @access   Private

@@ -7,7 +7,6 @@ const config = require('config')
 const { check, validationResult } = require('express-validator')
 
 
-
 // @route    POST /auth
 // @desc     Authenticate user & get token
 // @access   Public
