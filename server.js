@@ -41,4 +41,4 @@ app.use('/auth', require('./routes/api/auth'))
 
 app.get('/', (req, res) => res.send('Seja bem-vindo ao Christmas Post'))
 
-app.listen(port, () => { console.log(`APP working`) })
+app.listen(port, () => { console.log(`APP working on port ${port}`) })
