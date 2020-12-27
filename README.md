@@ -7,7 +7,7 @@
 # Backend
 - Node.js
 - Javascript
-- NoSQL
+- NoSQL - MongoDB
 
 # Frontend
 - React
