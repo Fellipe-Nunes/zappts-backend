@@ -11,6 +11,7 @@
 
 # Frontend
 - React
+- CSS
 
 
 ## Frameworks utilizados
